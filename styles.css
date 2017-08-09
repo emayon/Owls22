@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700');
 
 html, body {
   margin: 0;
@@ -19,9 +19,16 @@ header {
   background-color: #21cdb2;
 }
 
-header img {
+#logo {
   margin-left: 25px;
   margin-top: 20px;
+  margin-right: 25px;
+  height: 42px;
+  float: left;
+}
+
+header img {
+  margin-left: 25px;
   margin-right: 25px;
   height: 42px;
   float: left;
@@ -45,18 +52,20 @@ nav ul li {
   list-style: none;
   margin-left: 30px;
   font-size: 14px;
+    vertical-align: middle;
 }
 
 .first-section {
   width: 100%;
   top: 0;
   height: 600px;
-  background: url(http://paperbot.ai/assets/img/header-icons.01d079.png) no-repeat 50% 50%;
+  background: url(http://paperbot.ai/assets/img/header-icons.01d079.png) no-repeat 0px 25%;
   background-color: #21cdb2;
 }
 
 .call-to-action {
   float: left;
+  margin-top: 50px;
   margin-left: 50px;
   width: 45%;
   /* margin: 3%; */
@@ -64,7 +73,7 @@ nav ul li {
 
 .devices-img {
   float: right;
-  width: 45%;
+  width: 49%;
   /* margin: 3%; */
 }
 
@@ -78,11 +87,19 @@ nav ul li {
 }
 
 h1 {
-  font-size: 36px;
   color: #fff;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+h2 {
+  color: #4C5155;
+  font-size: 32px;
+  font-weight: 300;
 }
 
 h4 {
-  font-size: 24px;
-  color: #D3F5F0
+  color: #D3F5F0;
+  font-size: 22px;
+  font-weight: 300;
 }
