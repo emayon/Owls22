@@ -5,6 +5,7 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .wrapper {
@@ -19,8 +20,9 @@ header {
 }
 
 header img {
-  margin-top: 20px;
   margin-left: 25px;
+  margin-top: 20px;
+  margin-right: 25px;
   height: 42px;
   float: left;
 }
@@ -42,6 +44,45 @@ nav ul li {
   display: inline-block;
   list-style: none;
   margin-left: 30px;
-  font-family: "Merriweather Sans", sans-serif;
   font-size: 14px;
+}
+
+.first-section {
+  width: 100%;
+  top: 0;
+  height: 600px;
+  background: url(http://paperbot.ai/assets/img/header-icons.01d079.png) no-repeat 50% 50%;
+  background-color: #21cdb2;
+}
+
+.call-to-action {
+  float: left;
+  margin-left: 50px;
+  width: 45%;
+  /* margin: 3%; */
+}
+
+.devices-img {
+  float: right;
+  width: 45%;
+  /* margin: 3%; */
+}
+
+
+#devices {
+  width: 100%;
+}
+
+#main-action {
+  width: 270px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #fff;
+}
+
+h4 {
+  font-size: 24px;
+  color: #D3F5F0
 }
