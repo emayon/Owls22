@@ -105,7 +105,7 @@ h4 {
 }
 
 .zoom {
-  transition: all 0.2s;
+  transition: all 0.2s ease-out;
 }
 .zoom:hover {
   transform: scale(1.25);
