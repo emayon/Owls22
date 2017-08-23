@@ -110,3 +110,14 @@ h4 {
 .zoom:hover {
   transform: scale(1.25);
 }
+.container {
+  display:flex;
+  justify-content:center;
+}
+.container > div {
+  margin:10px;
+  text-align:center;
+}
+ul {
+  list-style:none;
+}
